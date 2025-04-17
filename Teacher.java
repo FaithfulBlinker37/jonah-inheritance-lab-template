@@ -8,8 +8,8 @@ public class Teacher extends Person{
     public Teacher(String name, int age, String gender)
     {
         super(name, age, gender);
-        subject = subject;
-        salary = salary;
+        this.subject = subject;
+        this.salary = salary;
     }
 
     // TODO Add methods
