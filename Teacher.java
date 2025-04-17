@@ -1,6 +1,9 @@
 public class Teacher extends Person{
     
     // TODO: Add fields.
+    private String subject;
+    private double salary;
+
 
     public Teacher(String name, int age, String gender)
     {
