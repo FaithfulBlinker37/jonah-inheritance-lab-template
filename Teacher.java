@@ -31,6 +31,6 @@ public class Teacher extends Person{
 
     public String toString(){
         // TODO: improve this.
-        return super.toString() + ", is a teacher!";
+        return super.toString() + " subject: " + subject + " salary: " + salary;
     }
 }
